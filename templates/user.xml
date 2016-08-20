@@ -1,0 +1,12 @@
+<templateSet group="user">
+  <template name="utf-8" value="# -*- coding: utf-8 -*-" description="utf-8" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="tf_tpp" value="# -*- coding: utf-8 -*-&#10;&#10;import tensorflow as tf&#10;&#10;flags = tf.app.flags&#10;FLAGS = flags.FLAGS&#10;flags.DEFINE_float('learning_rate', 0.01, 'Initial learning rate.')&#10;flags.DEFINE_integer('index', 1, 'Initial Index.')&#10;flags.DEFINE_string('train_dir', 'data', 'Directory to put the training data.')&#10;flags.DEFINE_boolean('fake_data', False, 'If true, uses fake data '&#10;                 'for unit testing.')&#10;&#10;def main(argv=None):&#10;    FLAGS.learning_rate&#10;    FLAGS.train_dir&#10;    FLAGS.fake_data&#10;    FLAGS.learning&#10;&#10;if __name__ == '__main__':&#10;    tf.app.run()&#10;" description="Default tensorflow template" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

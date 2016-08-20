@@ -1,0 +1,17 @@
+<application>
+  <component name="PySdkService">
+    <option name="REMOVED_SDKS">
+      <set>
+        <option value="/System/Library/Frameworks/Python.framework/Versions/2.6/bin/python2.6" />
+        <option value="/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+        <option value="$USER_HOME$/.pyenv/versions/anaconda-2.3.0/bin/python2.7" />
+        <option value="$USER_HOME$/Desktop/pine21/.pyenv/shims/python" />
+        <option value="$USER_HOME$/Desktop/pine21/.pyenv/versions/anaconda-2.3.0/bin/python" />
+        <option value="$USER_HOME$/Desktop/pine21/.pyenv/versions/anaconda-2.3.0/bin/python2.7" />
+        <option value="$USER_HOME$/Desktop/pine21/.pyenv/versions/anaconda-2.3.0/envs/new_conda/bin/python" />
+        <option value="$USER_HOME$/Desktop/pine21/.pyenv/versions/anaconda-2.3.0/envs/new_conda/bin/python2.7" />
+        <option value="$USER_HOME$/cnn/bin/python" />
+      </set>
+    </option>
+  </component>
+</application>
