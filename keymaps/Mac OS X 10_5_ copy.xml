@@ -1,71 +1,15 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
-  <action id="$Paste">
-    <keyboard-shortcut first-keystroke="meta v" />
+  <action id="EditorMatchBrace" />
+  <action id="EditorPasteSimple">
+    <keyboard-shortcut first-keystroke="shift meta alt v" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
-  <action id="CollapseAll">
-    <keyboard-shortcut first-keystroke="meta subtract" />
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
-  <action id="CollapseAllRegions">
-    <keyboard-shortcut first-keystroke="shift meta subtract" />
-  </action>
-  <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="meta subtract" />
-  </action>
-  <action id="Editor Paste">
-    <keyboard-shortcut first-keystroke="ctrl y" />
-  </action>
-  <action id="EditorDecreaseFontSize">
-    <keyboard-shortcut first-keystroke="meta minus" />
-    <keyboard-shortcut first-keystroke="shift meta minus" />
-  </action>
-  <action id="EditorIncreaseFontSize">
-    <keyboard-shortcut first-keystroke="shift meta semicolon" />
-  </action>
-  <action id="EditorPageDown">
-    <keyboard-shortcut first-keystroke="page_down" />
-    <keyboard-shortcut first-keystroke="ctrl q" />
-  </action>
-  <action id="EditorPageUp">
-    <keyboard-shortcut first-keystroke="page_up" />
-    <keyboard-shortcut first-keystroke="ctrl u" />
-  </action>
-  <action id="GotoTest" />
-  <action id="Images.Editor.ZoomOut">
-    <keyboard-shortcut first-keystroke="meta subtract" />
-  </action>
-  <action id="Images.ShowThumbnails" />
-  <action id="MethodHierarchy" />
-  <action id="NextTab">
-    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl right" />
-    <keyboard-shortcut first-keystroke="shift meta l" />
-  </action>
-  <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl left" />
-    <keyboard-shortcut first-keystroke="shift meta h" />
-  </action>
-  <action id="ReopenClosedTab">
-    <keyboard-shortcut first-keystroke="shift meta t" />
-  </action>
-  <action id="SaveAll">
-    <keyboard-shortcut first-keystroke="meta s" />
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl s" />
-  </action>
-  <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="ctrl alt enter" />
-  </action>
-  <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="ctrl alt down" />
-  </action>
-  <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
-  </action>
-  <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="ctrl alt right" />
-  </action>
-  <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  <action id="MinimizeCurrentWindow" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="meta e" />
   </action>
 </keymap>
